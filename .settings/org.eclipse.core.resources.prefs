@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//tutorial/__init__.py=utf-8
+encoding//tutorial/items.py=utf-8
+encoding//tutorial/jsonupload.py=utf-8
+encoding//tutorial/pipelines.py=utf-8
+encoding//tutorial/settings.py=utf-8
+encoding//tutorial/spiders/jobkorea_spider.py=utf-8
+encoding//tutorial/spiders/masterqna_spider.py=utf-8
+encoding//tutorial/spiders/okjsp_spider.py=utf-8
+encoding//tutorial/spiders/xe_spider.py=utf-8
+encoding//tutorial/test.py=utf-8
+encoding//tutorial/xe_jsonupload.py=utf-8
