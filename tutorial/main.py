@@ -15,11 +15,11 @@ if  __name__ =='__main__':
     
     args = " {masterqna|okjsp|jobkorea}"
     
-    if(len(sys.argv) != 2):
+    if len(sys.argv) != 2:
         print "usage : " + sys.argv[0] + args
         exit()
     
-    if (sys.argv[1] == 'masterqna'):
+    if sys.argv[1] == 'masterqna':
         masterqna()
-    elif (sys.argv[1] == 'jobkorea'):
+    elif sys.argv[1] == 'jobkorea':
         jobkorea()        

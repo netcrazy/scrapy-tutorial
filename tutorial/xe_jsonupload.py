@@ -1,10 +1,10 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
-'''
+"""
 Created on 2014. 12. 2.
 
 @author: IKCHOI
-'''
+"""
 import os
 import pycurl
 import sys
@@ -19,7 +19,7 @@ except ImportError:
     
 args = ' {masterqna|jobkorea}'
 
-if(len(sys.argv) != 2):
+if len(sys.argv) != 2:
     print 'usage : ' + sys.argv[0] + args
     exit()
 
@@ -34,10 +34,10 @@ if( arg1 != 'masterqna' and
 
 json_path = ''
 curl_url = ''
-if(arg1 == 'masterqna'):
+if arg1 == 'masterqna':
     json_path = '../masterqna.json'
     curl_url = 'http://nonstop.pe.kr/api/xe.php'
-elif (arg1 == 'jobkorea'):
+elif arg1 == 'jobkorea':
     json_path = '../jobkorea.json'
     curl_url = 'http://nonstop.pe.kr/api/jobkorea.php'
 

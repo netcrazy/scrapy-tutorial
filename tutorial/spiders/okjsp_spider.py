@@ -1,9 +1,8 @@
 #-*- coding: utf-8 -*-
-'''
+"""
 Created on 2014. 11. 24.
-
 @author: ikchoi
-'''
+"""
 
 import scrapy
 import datetime
@@ -17,8 +16,7 @@ class DmozSpider(scrapy.Spider):
     start_urls = [
         "http://www.okjsp.net/bbs?act=LIST&bbs=ajaxqna&keyfield=content&keyword=&pg=0"
     ]
-    
-    
+
 
     def parse(self, response):
         for sel in response.xpath('//tr[@class="body"]'):

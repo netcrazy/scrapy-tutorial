@@ -1,14 +1,12 @@
 #-*- coding: utf-8 -*-
-'''
+"""
 Created on 2015. 01. 13.
-
 @author: ikchoi
-'''
+"""
 
 import scrapy
 import datetime
 
-from scrapy.selector import HtmlXPathSelector
 from tutorial.items import JobItem
 
 #기본 4000까지 크롤링함..
