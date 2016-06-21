@@ -15,8 +15,7 @@ class DmozSpider(scrapy.Spider):
     name = "masterqna"
     allowed_domains = ["masterqna.com"]
     start_urls = [
-        "http://www.masterqna.com/android/questions?start=0",
-        "http://www.masterqna.com/android/questions?start=20"
+        "http://www.masterqna.com/android/questions?start=0"
     ]
 
     def parse(self, response):
